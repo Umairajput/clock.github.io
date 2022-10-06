@@ -1,0 +1,115 @@
+#container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+#div {
+    background-color: black;
+    width: auto;
+    height: 400px;
+    margin-bottom: 125px;
+}
+
+#main {
+    background: linear-gradient(pink, yellow, pink);
+    height: 150px;
+    width: 400px;
+    margin-top: 70px;
+    /* margin-left: 100px; */
+    /* text-align: center; */
+}
+
+#time {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+#screen {
+    font-family: monospace;
+    color: red;
+    font-size: 50px;
+    margin-left: 45px;
+    position: fixed;
+    top: 250px;
+}
+
+#start {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#start:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+#stop {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#stop:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+#reset {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#reset:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 435px) {
+    #main {
+        width: 350px;
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #main {
+        width: 300px;
+        height: 100px;
+    }
+}
